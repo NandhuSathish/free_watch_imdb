@@ -3,7 +3,7 @@
 // Get references to DOM elements
 const toggleButton = document.querySelector('.toggle input');
 const serverSelect = document.getElementById('server-select');
-const tmdbButton = document.getElementById('tmdb-button');
+const imdbButton = document.getElementById('imdb-button');
 const gitButton = document.getElementById('git-button');
 const bugButton = document.getElementById('bug-button');
 
@@ -15,9 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Set the selected server based on the saved server number
         if (data.selectedServerNumber) {
-            const optionToSelect = Array.from(serverSelect.options).find(
-                (option) => option.getAttribute('server-number') === data.selectedServerNumber
-            );
+            const optionToSelect = Array.from(serverSelect.options).find((option) => option.getAttribute('server-number') === data.selectedServerNumber);
             if (optionToSelect) {
                 serverSelect.value = optionToSelect.value;
             }
@@ -39,22 +37,8 @@ serverSelect.addEventListener('change', () => {
 });
 
 // Open TMDB Website
-document.addEventListener("DOMContentLoaded", () => {
-    tmdbButton.addEventListener('click', () => {
-        chrome.tabs.create({ url: 'https://www.themoviedb.org/' });
-    });
-});
-
-// Open GitHub Repository
-document.addEventListener("DOMContentLoaded", () => {
-    gitButton.addEventListener('click', () => {
-        chrome.tabs.create({ url: 'https://github.com/TomasTNunes/TMDB-Player/tree/master?tab=readme-ov-file#tmdb-player' });
-    });
-});
-
-// Open Bug Report Page
-document.addEventListener("DOMContentLoaded", () => {
-    bugButton.addEventListener('click', () => {
-        chrome.tabs.create({ url: 'https://github.com/TomasTNunes/TMDB-Player/issues' });
+document.addEventListener('DOMContentLoaded', () => {
+    imdbButton.addEventListener('click', () => {
+        chrome.tabs.create({ url: 'https://www.imdb.com/' });
     });
 });

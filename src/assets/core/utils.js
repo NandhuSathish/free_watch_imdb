@@ -99,7 +99,7 @@ async function fetchTvShowData(tvId) {
     });
 }
 
-// Verify if TMDB is in mobile mode or screen width is smaller than 768
+// Verify if IMDB is in mobile mode or screen width is smaller than 768
 function isMobile() {
     const isMobileUserAgent = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Windows Phone|Mobile|Tablet|Kindle|Silk|PlayBook|KaiOS|Tizen|SMART-TV|Xbox/i.test(
         navigator.userAgent

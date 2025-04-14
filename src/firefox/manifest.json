@@ -2,12 +2,12 @@
     "manifest_version": 3,
     "name": "free_watch_imdb",
     "version": "1.2.1",
-    "description": "Adds a custom play button to IMDB pages, allowing users to stream movies and TV shows for free.",
+    "description": "Allowing users to stream movies and TV shows for free from IMDB pages.",
     "permissions": ["storage"],
     "host_permissions": ["https://www.imdb.com/*"],
     "browser_specific_settings": {
         "gecko": {
-            "id": "tmdbplayerext@nunesnetwork.org"
+            "id": "freewatchimdb@mydomain.com"
         }
     },
     "background": {
@@ -16,7 +16,7 @@
     "content_scripts": [
         {
             "matches": ["https://www.imdb.com/*"],
-            "js": ["content/utils.js", "content/movie.js"],
+            "js": ["core/utils.js", "core/index.js"],
             "run_at": "document_end"
         }
     ],

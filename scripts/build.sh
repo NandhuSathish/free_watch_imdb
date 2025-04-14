@@ -29,9 +29,9 @@ cp -r src/assets/* $FIREFOX_DIR
 
 # Zip chromium
 cd $CHROMIUM_DIR
-zip -r ../../dist/tmdb_player-chromium-$CHROMIUM_VERSION.zip .
+zip -r ../../dist/free_watch_imdb-chromium-$CHROMIUM_VERSION.zip .
 cd ../..
 
 # Zip firefox
 cd $FIREFOX_DIR
-zip -r ../../dist/tmdb_player-firefox-$FIREFOX_VERSION.zip .
+zip -r ../../dist/free_watch_imdb-firefox-$FIREFOX_VERSION.zip .

@@ -8,9 +8,9 @@ body {
 }
 
 .header {
-    background: linear-gradient(to right, #90cea1, #01b4e4);
+    background: #F5C518;
     font-family: 'Ubuntu', 'El Messiri', sans-serif;
-    color: white;
+    color: #1F1F1F;
     padding: 15px;
     text-align: center;
     font-size: 22px;
@@ -81,7 +81,7 @@ body {
 }
 
 input:checked + .slider {
-    background-color: #4CAF50;
+    background-color: #F5C518;
 }
 
 input:checked + .slider:before {
@@ -111,7 +111,7 @@ input:checked + .slider:before {
     box-sizing: border-box; /* Include padding in width calculation */
 }
 
-.tmdb-button {
+.imdb-button {
     padding: 10px;
     background-color: #0d253f;
     color: white;
