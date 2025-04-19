@@ -1,14 +1,14 @@
 # FreeWatchIMDb
 
 <p align="center">
-  <img src="assets/logo.png" alt="FreeWatchIMDb Logo" width="200">
+  <img src="src/assets/logo.png" alt="FreeWatchIMDb Logo" width="200">
 </p>
 
 ## Introduction
 
 FreeWatchIMDb is a browser extension designed to enhance your IMDb experience. By installing this extension, you can easily find and watch movies and TV shows available for free directly from their IMDb pages. A convenient "Free Watch🍿" button will appear, allowing you to open a dedicated player in a new tab and start watching.
 
-**Please note:** This extension does not host any content itself. It aggregates links from various external sources. Some of these sources may contain advertisements, so using an ad blocker like <img src="assets/ublock_icon.png" alt="uBlock Origin" width="20"> uBlock Origin is highly recommended for a smoother viewing experience.
+**Please note:** This extension does not host any content itself. It aggregates links from various external sources. Some of these sources may contain advertisements, so using an ad blocker like <img src="src/assets/ublock_icon.png" alt="uBlock Origin" width="20"> uBlock Origin is highly recommended for a smoother viewing experience.
 
 ## Key Features
 
