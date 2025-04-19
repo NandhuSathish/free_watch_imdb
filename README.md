@@ -41,17 +41,17 @@ You can install FreeWatchIMDb in two ways:
 
 2.  **Browse to a Movie or TV Show:** Find the movie or TV show you want to watch and go to its detail page (e.g., the page with the title, rating, cast, etc.). You should see the "Free Watch🍿" button.
 
-    ![IMDb Detail Page with Free Watch Button](assets/screenshots/imdb_page.png)
+    ![IMDb Detail Page with Free Watch Button](src/assets/screenshots/imdb_page.png)
 
 3.  **Locate the "Free Watch🍿" Button:** On the movie/TV show detail page, you will now see a new button labeled "Free Watch🍿". This button is usually located near the other action buttons like "Add to Watchlist".
 
 4.  **Click "Free Watch🍿":** Clicking this button will open a new tab with the configured player.
 
-    ![Player Opens in New Tab](assets/screenshots/player_tab.png)
+    ![Player Opens in New Tab](src/assets/screenshots/player_tab.png)
 
 5.  **Watch and Enjoy:** In the new tab, the player interface will load. You can then select a server from the available options and start watching the movie or TV show.
 
-    ![Player Interface with Server Options](assets/screenshots/player_interface.png)
+    ![Player Interface with Server Options](src/assets/screenshots/player_interface.png)
 
 6.  **Change Servers:** If one server is not working or has too many ads, you can usually find options within the player interface to switch to a different server.
 
@@ -61,7 +61,7 @@ You can configure the extension by clicking on its icon in your browser's toolba
 
 * **Select Default server:** Choose your preferred server from a list of available options. This will be the player that opens when you click the "Free Watch🍿" button.
 
-    ![Extension Configuration Popup](assets/screenshots/extension_popup.png)
+    ![Extension Configuration Popup](src/assets/screenshots/extension_popup.png)
 
 ## Disclaimer
 
