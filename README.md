@@ -23,7 +23,9 @@ You can install FreeWatchIMDb in two ways:
 **1. Install from the Firefox Add-ons Store:**
 
 * This is the recommended and easiest method.
-* Simply search for "FreeWatchIMDb" in the Firefox Add-ons store <img src="assets/firefox_addons_icon.png" alt="Firefox Add-ons Store" width="20"> and click "Add to Firefox".
+* Simply search for "FreeWatchIMDb" in the Firefox Add-ons store <a href="https://addons.mozilla.org/en-US/firefox/addon/free_watch_imdb/" target="_blank">
+ <img src="https://blog.mozilla.org/addons/files/2015/11/get-the-addon.png" alt="Firefox" height="50px" >
+</a> and click "Add to Firefox".
 * Follow the on-screen instructions to complete the installation.
 
 **2. Install from the .xpi File (for advanced users):**
